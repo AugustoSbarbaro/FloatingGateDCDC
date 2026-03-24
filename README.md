@@ -7,10 +7,10 @@
 | Analog    | VHLS      | 5V        |
 | Analog    | VBAT      | 5V        |
 | Analog    | VBAT2     | < 5V      |
-| Digital I | Vs        | 1.2V      |
+| Digital Input | Vs        | 1.2V      |
 | Analog    | VH        | 0-10V     |
 | Analog    | Vddls     | 3.3V      |
-| Digital I | IN        | 1.2V      |
+| Digital Input | IN        | 1.2V      |
 | Analog    | Vout      | 0-10V     |
 
 ## Verification Status
