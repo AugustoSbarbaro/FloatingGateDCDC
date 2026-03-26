@@ -1,6 +1,8 @@
-** sch_path: /home/designer/shared/FloatingGateDCDC/schematic/xschem/Full_Layout.sch
-.subckt Full_Layout Vout VH VSS VHLS Vddls Vs VBAT IN VBAT2
-*.PININFO Vout:B VH:B VSS:B VHLS:B Vddls:B Vs:B VBAT:B IN:B VBAT2:B
+** sch_path: /home/wsl_rks/Designs/redesign_Floating_Gate_Driver_2025/ALL_Floating_Gate/Sch/Final_SCH/Full_Layout.sch
+.include "/opt/pdks/ihp-sg13g2/libs.ref/sg13g2_stdcell/cdl/sg13g2_stdcell.cdl"
+.global VDD VSS
+.subckt Full_Layout Vout G2 VH VSS VHLS Vddls Vs
+*.PININFO Vout:B G2:B VH:B VSS:B VHLS:B Vddls:B Vs:B
 M2 VSS net1 Vout VSS sg13_hv_nmos w=10u l=0.45u ng=1 m=4080
 M1 Vout TRIG VH Vout sg13_hv_nmos w=10u l=0.45u ng=1 m=4080
 MD9 VgMD2 Vs Vddls Vddls sg13_lv_pmos w=1.12u l=0.13u ng=1 m=2
@@ -53,13 +55,8 @@ M29 Vboot Vboot VBAT Vboot sg13_hv_pmos w=6u l=0.5u ng=1 m=1
 **** begin user architecture code
 
 
-.lib cornerMOSlv.lib mos_tt
-.lib cornerMOShv.lib mos_tt
-.lib cornerCAP.lib cap_typ
-.include sg13g2_stdcell.spice
-.include sg13g2_stdcell.cdl
-.include diodes.lib
 
 
 **** end user architecture code
 .ends
+.end
