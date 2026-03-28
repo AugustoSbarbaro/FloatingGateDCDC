@@ -1,4 +1,4 @@
-# Pinout / Interface Table
+# Pinout Table
 
 | Type      | Pin Name  | Voltage   |
 |-----------|----------|----------|
@@ -16,4 +16,4 @@
 ## Verification Status
 
 - **DRC:** Only Filler and Density Errors (Minimal/Maximal)
-- **LVS:** Clean, but could not export log so placed .spice instead
+- **LVS:** Clean, but could not export log so placed .spice at /verification/lvs/ instead
