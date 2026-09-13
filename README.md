@@ -15,5 +15,5 @@
 
 ## Verification Status
 
-- **DRC:** Only Mim.gR recommendation
+- **DRC:** Only MIM.gR recommendation
 - **LVS:** Passed
