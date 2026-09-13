@@ -1,0 +1,19 @@
+13-Sep-2026 06:51:54 | INFO    | Your Klayout version is: KLayout 0.30.11 (required >= 0.30.5)
+13-Sep-2026 06:51:54 | WARNING | KLayout binary version (0.30.11) differs from the imported klayout Python package version (0.30.12). Re-align with: pip install klayout==0.30.11
+13-Sep-2026 06:51:54 | INFO    | Running SG13G2 LVS checks on design /home/designer/shared/FloatingGateDCDC/layout/klayout/Full_Layout.gds on cell Full_Layout
+13-Sep-2026 06:52:04 | INFO    | ==============================================================================
+13-Sep-2026 06:52:04 | INFO    | Important Summary
+13-Sep-2026 06:52:04 | INFO    | +------------------+--------------------------------------------------------------+
+13-Sep-2026 06:52:04 | INFO    | | Status           | PASS                                                         |
+13-Sep-2026 06:52:04 | INFO    | | Mode             | COMPARE                                                      |
+13-Sep-2026 06:52:04 | INFO    | | Outcome          | Comparison mode: PASS (netlists match).                      |
+13-Sep-2026 06:52:04 | INFO    | | Layout           | Full_Layout.gds                                              |
+13-Sep-2026 06:52:04 | INFO    | | Top Cell         | Full_Layout                                                  |
+13-Sep-2026 06:52:04 | INFO    | | Results Dir      | /home/designer/shared/FloatingGateDCDC/verification/lvs      |
+13-Sep-2026 06:52:04 | INFO    | | Warnings         | 1                                                            |
+13-Sep-2026 06:52:04 | INFO    | | Errors           | 0                                                            |
+13-Sep-2026 06:52:04 | INFO    | | Run Time (s)     | 10.437                                                       |
+13-Sep-2026 06:52:04 | INFO    | +------------------+--------------------------------------------------------------+
+13-Sep-2026 06:52:04 | WARNING | Key warnings:
+13-Sep-2026 06:52:04 | WARNING |   - KLayout binary version (0.30.11) differs from the imported klayout Python package version (0.30.12). Re-align with: pip install klayout==0.30.11
+13-Sep-2026 06:52:04 | INFO    | ==============================================================================
