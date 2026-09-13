@@ -2,8 +2,8 @@
 
 | Type      | Pin Name  | Voltage   |
 |-----------|----------|----------|
-| Power     | Logic_VDD | 1.2V      |
-| Ground    | VSS/GND   | 0V        |
+| Power     | VDD | 1.2V      |
+| Ground    | VSS   | 0V        |
 | Digital Input | IN        | 1.2V      |
 | Digital Input | Vs        | 1.2V      |
 | Analog    | Vddls     | 1.5V      |
