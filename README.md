@@ -15,5 +15,5 @@
 
 ## Verification Status
 
-- **DRC:** Only Filler and Density Errors (Minimal/Maximal)
-- **LVS:** Clean, but could not export log so placed .spice at /verification/lvs/ instead
+- **DRC:** Only Mim.gR recommendation
+- **LVS:** Passed
